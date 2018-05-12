@@ -5,7 +5,7 @@ angular.module('video-player')
         method: 'GET',
         url: 'https://www.googleapis.com/youtube/v3/search',
         params: {
-          q: 'shaggy',  //variable with text from search bar
+          q: 'shaggy', //variable with text from search bar
           maxResults: '5',
           key: YOUTUBE_API_KEY,
           videoEmbeddable: 'true',

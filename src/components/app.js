@@ -21,7 +21,7 @@ angular.module('video-player')
       this.result = (video) => {
         this.currentVideo = video.data.items[0]; 
         this.videos = video.data.items;
-      }
+      };
     },
     templateUrl: 'src/templates/app.html' 
   
