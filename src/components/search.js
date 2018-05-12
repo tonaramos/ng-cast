@@ -3,6 +3,7 @@ angular.module('video-player')
     bindings: {
       result: '<',
       searchResults: '<',
+      debouncer: '<',
     },
     
     

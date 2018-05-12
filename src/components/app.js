@@ -18,6 +18,7 @@ angular.module('video-player')
           key: YOUTUBE_API_KEY,
         }, this.result);
       };
+      this.debouncer = _.debounce(this.searchResults, 500);
       this.result = (video) => {
         this.currentVideo = video.data.items[0]; 
         this.videos = video.data.items;
